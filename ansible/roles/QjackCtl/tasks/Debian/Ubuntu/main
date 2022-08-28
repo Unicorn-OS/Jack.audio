@@ -1,0 +1,6 @@
+---
+- name: install QjackCtl
+  ansible.builtin.apt:
+    name: qjackctl
+    state: present
+  become: true

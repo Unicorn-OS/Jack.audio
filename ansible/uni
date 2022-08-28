@@ -1,0 +1,8 @@
+---
+- hosts: node
+  gather_facts: yes
+
+  roles:
+    - JACK
+    - QjackCtl
+#    - PulseAudio

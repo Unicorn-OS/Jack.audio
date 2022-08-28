@@ -1,0 +1,6 @@
+---
+- name: install jackd
+  ansible.builtin.apt:
+    pkg:
+    - jackd
+  become: true
